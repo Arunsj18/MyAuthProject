@@ -1,4 +1,4 @@
-namespace Login
+namespace MyAuth
 {
     public class WeatherForecast
     {

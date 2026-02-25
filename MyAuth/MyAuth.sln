@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36930.0 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Login", "Login\Login.csproj", "{7E6671C0-664B-439C-BE42-C3AA2415A7DF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAuth", "MyAuth\MyAuth.csproj", "{EDC73570-A465-4CA0-9A51-8ED4939A9C55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7E6671C0-664B-439C-BE42-C3AA2415A7DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7E6671C0-664B-439C-BE42-C3AA2415A7DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7E6671C0-664B-439C-BE42-C3AA2415A7DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7E6671C0-664B-439C-BE42-C3AA2415A7DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDC73570-A465-4CA0-9A51-8ED4939A9C55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDC73570-A465-4CA0-9A51-8ED4939A9C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDC73570-A465-4CA0-9A51-8ED4939A9C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDC73570-A465-4CA0-9A51-8ED4939A9C55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {AE6639BE-A43F-46DA-9AC0-AEBDF79A3488}
+		SolutionGuid = {28E2EF9E-9DDC-4DE7-ADCE-2AD6032D675B}
 	EndGlobalSection
 EndGlobal
