@@ -23,10 +23,12 @@ namespace MyAuth.Repositories
         {
             using var connection = GetConnection();
             using var command = new SqlCommand(
-                "SELECT * FROM Users WHERE Email = @Email",
+                "SELECT Id, UserName, Email, PasswordHash, PasswordSalt," +
+                " IsActive, IsEmailConfirmed, CreatedAt" +
+                " FROM Users WHERE Email = @Email",
                 connection);
 
-            command.Parameters.AddWithValue("@Email", email);
+            command.Parameters.Add("@Email", SqlDbType.NVarChar, 150).Value = email;
 
             await connection.OpenAsync();
             using var reader = await command.ExecuteReaderAsync();
